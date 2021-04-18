@@ -3,36 +3,48 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Dice Simulator</title>
+  <title>Dice</title>
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
   <link rel="shortcut icon" type="image/jpg" href="images\top.png" />
+  <!-- this is style sheet for footer fa fa icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
+  <header><h1 id="head">Dice</h1></header>
+
   <div class="container">
-    <h1>Refresh Me</h1>
 
     <div class="dice">
-      <p>Player 1</p>
-      <img class="img1" src="images\dice2.png">
+      <p id="plr1">Player 1</p>
+      <img class="img1" src="images\dice6.png">
     </div>
 
     <div class="dice">
-      <p>Player 2</p>
-      <img class="img2" src="images\dice5.png">
+      <p id="plr2">Player 2</p>
+      <img class="img2" src="images\dice6.png">
     </div>
+
     <div>
-      <button id = "btn">PLAY</button>
+      <button id="btn">PLAY</button>
     </div>
+
   </div>
 
   <script src="dice.js"></script>
+
 </body>
 
 <footer>
-  www 🎲 App Brewery 🎲 com
+  <a href="https://www.facebook.com/puneet.bisht.520" class="fa fa-facebook" target="newwindow"></a>
+  <a href="https://twitter.com/PuneetB65525881" class="fa fa-twitter" target="newwindow"></a>
+  <a href="https://www.linkedin.com/in/puneet-bisht-78242b20a/" class="fa fa-linkedin" target="newwindow"></a>
+  <a href="https://www.instagram.com/puneet_1201/" class="fa fa-instagram" target="newwindow"></a>
+
+  <div id="note_foot"><a href="#" class="footer_note">Programmer Penguin</a></div>
+  <div>&#169; 2020 All Rights Reserved</div>
 </footer>
 
 </html>
